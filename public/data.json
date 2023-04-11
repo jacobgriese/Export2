@@ -1,0 +1,16 @@
+{
+  "points": [
+    {
+      "position": [49.93935, 6.21771],
+      "name": "Chateau de Vianden",
+      "short_desc": "Le plus grand château du Luxembourg",
+      "description": "Le Château de Vianden fut construit pendant la période du 11e au 14e siècle sur les assises d’un castel romain et d’un refuge carolingien; il est une des plus grandes et plus belles résidences féodales des époques romane et gothique de l’Europe.",
+      "sketchfab": "https://sketchfab.com/models/91a01eae9ada489a9bc76ecf21881237/embed?dnt=1"
+    },
+    {
+      "position": [45.98171573696808, 4.641570312793878],
+      "name": "Château du Sou",
+      "short_desc": "Magnifique château médiéval rénové"
+    }
+  ]
+}

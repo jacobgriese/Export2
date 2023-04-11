@@ -1,0 +1,104 @@
+body {
+  background: #c0e5a3; /* Make it white if you need */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#Header {
+  height: 80px;
+  background: #f1f1f1;
+}
+
+#Logo {
+}
+
+#Logo img {
+  height: 60px;
+  width: 60px;
+  padding: 8px;
+  float: left;
+}
+
+#Logo p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #050505;
+  font-size: 1.5em;
+  float: left;
+}
+
+#MainMenu {
+  display: flex;
+  float: right;
+  vertical-align: center;
+  padding: 0 20px;
+}
+
+#MainMenu li {
+  float: left;
+  color: #050505;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.2em;
+  vertical-align: center;
+  padding: 12px 20px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+#MainMenu a:link {
+  text-decoration: none;
+}
+#MainMenu a:visited {
+  text-decoration: none;
+  color: #050505;
+}
+#MainMenu a:hover {
+  text-decoration: none;
+  color: #444;
+}
+#MainMenu a:active {
+  text-decoration: none;
+}
+
+#Main {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: calc(100vh - 100px);
+}
+
+#Map {
+  width: 60vw;
+  /* height: 100vh; */
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+#FInfo {
+  width: 40vw;
+  /* height: 100vh; */
+  margin: 0;
+  background: #c0e5a3;
+  color: #2a2219;
+  padding: 0 20px;
+  display: block;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#FInfo p {
+  margin-down: 30px;
+}
+.sketchfab-embed-wrapper {
+  width: 100%;
+}
+iframe {
+  width: 100%;
+  height: 300px;
+}
